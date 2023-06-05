@@ -32,6 +32,36 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# R source file
+*.r linguist-detectable=true
+*.r linguist-documentation=false
+*.r linguist-language=R
+*.rdata linguist-detectable=true
+*.rdata linguist-documentation=false
+*.rdata linguist-language=R
+*.rda linguist-detectable=true
+*.rda linguist-documentation=false
+*.rda linguist-language=R
+*.rds linguist-detectable=true
+*.rds linguist-documentation=false
+*.rds linguist-language=R
+# RMarkdown source file
+*.Rmd linguist-detectable=true
+*.Rmd linguist-documentation=false
+*.Rmd linguist-language=RMarkdown
+# Hack source file
+*.hh linguist-detectable=true
+*.hh linguist-documentation=false
+*.hh linguist-language=Hack
+*.hck linguist-detectable=true
+*.hck linguist-documentation=false
+*.hck linguist-language=Hack
+*.hack linguist-detectable=true
+*.hack linguist-documentation=false
+*.hack linguist-language=Hack
+*.php linguist-detectable=true
+*.php linguist-documentation=false
+*.php linguist-language=Hack
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -161,10 +191,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Monday, June 5th at 2:40 pm PST)
+# Line count (including blank lines and compiler line): 204
+
 # End of script
